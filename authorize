@@ -1,0 +1,20 @@
+#Example Client Device 1
+001122aabbcc Cleartext-password := 001122aabbcc
+     Tunnel-password = hypotheticalnetworkpassword,
+     Tunnel-Type = "VLAN",
+     Tunnel-Medium-Type = "IEEE-802",
+     Tunnel-Private-Group-Id = "30"
+
+#Example Client Device 2
+aabbcc001122 Cleartext-password := aabbcc001122
+     Tunnel-password = hypotheticalnetworkpassword2,
+     Tunnel-Type = "VLAN",
+     Tunnel-Medium-Type = "IEEE-802",
+     Tunnel-Private-Group-Id = "30"
+
+#Example Client Device 3
+abc123abc123 Cleartext-password := abc123abc123
+     Tunnel-password = hypotheticalnetworkpassword2,
+     Tunnel-Type = "VLAN",
+     Tunnel-Medium-Type = "IEEE-802",
+     Tunnel-Private-Group-Id = "30"
